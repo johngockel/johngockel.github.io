@@ -1,0 +1,5 @@
+.parent {
+    font-family: 'Inconsolata', monospace;
+    display: grid;
+    place-items: center;
+}
