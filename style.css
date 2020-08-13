@@ -1,5 +1,17 @@
+body {
+    color: #222;
+    background: #fff;
+}
+
 .parent {
     font-family: 'Inconsolata', monospace;
     display: grid;
     place-items: center;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        color: #eee;
+        background: #121212;
+    }
 }
