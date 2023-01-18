@@ -189,3 +189,20 @@
     0%   { transform: translateY(0); }
     100% { transform: translateY(-150vh) rotate(600deg); }
 }
+
+@media screen and (max-width: 400px) {
+    #header h1 {
+        font-size: 4em;
+        font-weight: 800;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    #header h1 {
+        font-size: 3em;
+        font-weight: 700;
+    }
+    .info {
+        font-size: 1em;
+    }
+}
