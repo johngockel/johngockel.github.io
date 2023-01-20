@@ -203,11 +203,6 @@
     .info {
         font-size: 1em;
     }
-    .icon {
-        font-size: 1.5em;
-        line-height: .04167em;
-        vertical-align: -.125em;
-    }
 }
 
 @media screen and (max-width: 400px) {
@@ -218,9 +213,9 @@
         font-size: .85em;
     }
     .icon {
-        font-size: 1em;
-        line-height: 1em;
-        vertical-align: 1em;
+        font-size: 1.5em;
+        line-height: .04167em;
+        vertical-align: -.125em;
     }
 }
 
